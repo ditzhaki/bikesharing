@@ -36,5 +36,29 @@ The relationship between number of trips and their duration remains the same for
 
 ### Trips by Weekday
 
+Next, we can take a look into the relationship between the number of trips and the weekday through the use of a heatmap. The heatmap helps show weekly usage patterns. 
+
+![Trips by Weekday](https://user-images.githubusercontent.com/101564349/180616681-7371b28b-8145-4648-ae4e-3ab92db04b64.png)
+
+From our heatmap, we can see that the majority of bike trips occur during the weekday (Monday - Friday) and specifically, during commute times (morning and evening). On the weekends, we can see that majority of bike rides inversely occur in the middle of the day. We can further break down this data by gender. 
+
+![Trips by Gender](https://user-images.githubusercontent.com/101564349/180617132-c0ca58a3-6020-4798-a99b-1275f5c74da7.png)
+
+Breaking it down by gender reveals the same pattern that the number of trips occurring are done mostly by males while the pattern between number of trips and commute time remains the same for each gender.
+
+### User Trips by Gender
+
+To conclude, we can look at a heatmap that summarizes the patterns we have seen from the visuals above.
+
+![User Trips by Gender](https://user-images.githubusercontent.com/101564349/180617242-4c3208bd-6828-4694-9249-42b7d5cf6b1f.png)
+
+The heatmap is broken down by user type, gender, weekday, and number of trips. This heatmap reinforces how much of the userbase is dominated by male, subscribing users.
 
 ## Conclusion
+
+In summary, it is clear that Citibike is popular within New York City where there is a dense population, constant traffic, and limited parking. The user base consists of mostly male individuals and subscribers who travel by bike at peak commute times. 
+
+Two additional visualizations that should be performed with the given data are:
+
+* Trip duration & Number of rides by age to explore the impact that age may have on citibike participation.
+* Start and end locations during peak commute times to explore the neighborhoods with the most bikers. 
